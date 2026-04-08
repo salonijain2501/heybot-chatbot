@@ -1,5 +1,5 @@
 import React from 'react'
-import Bot from './component/bot'
+import Bot from './component/Bot'
 
 function App() {
   return (
