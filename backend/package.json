@@ -2,24 +2,21 @@
   "name": "chatbot-backend",
   "version": "1.0.0",
   "description": "chatbot-app",
-  "keywords": [
-    "chatbot",
-    "application"
-  ],
-  "license": "ISC",
-  "author": "Saloni jain",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
-    "express": "^5.2.1",
+    "express": "^4.19.2",
     "mongoose": "^9.0.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.11"
   }
 }
