@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 
 import chatBotRoutes from "./routes/ChatBot.route.js";
-import authRoutes from "./routes/auth.route.js"; 
+
 
 dotenv.config();
 
@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 
 // Routes
 app.use("/bot/v1", chatBotRoutes);
-app.use("/auth/v1", authRoutes); 
+
 
 // MongoDB connection + server start
 mongoose
